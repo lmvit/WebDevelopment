@@ -1,0 +1,326 @@
+body {
+  margin: 0;
+  font-family: "Montserrat";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+}
+
+code {
+  font-family: "Montserrat";
+}
+/* Navbar */
+.header_header_div {
+  position: relative;
+  background-color: #02a4f9;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+.Lmvib_main_logo_div {
+  padding: 10px 5px 15px 45px !important;
+}
+.Lmvib_main_logo_div img {
+  border-radius: 6px;
+}
+.unordered_list_navbar {
+  list-style-type: none;
+  margin: 3vh 5vh;
+  padding: 10px 5px 0 0;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.unordered_list_navbar li {
+  padding-right: 15px;
+}
+
+.unordered_list_navbar li select {
+  border: none;
+  background-color: transparent;
+  padding-right: 2px;
+}
+.signIn_button {
+  width: 113px;
+  height: 25px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.signIn_button h5 {
+  position: relative;
+  right: 0;
+}
+.signIn_button button {
+  border: none;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 25px;
+  color: #02a4f9;
+}
+/* Body */
+body {
+  background-image: url("./Images//Web\ Page\ Bg.jpg");
+}
+/* Body  Options*/
+.Options_mainDiv {
+  width: 100%;
+  padding: 2px;
+}
+.Options_mainDiv_inside {
+  justify-content: center;
+  margin-top: 10px;
+}
+.Option_items_bodydiv1 {
+  display: inline-flex;
+  flex-direction: row;
+}
+.Option_items_bodydiv1 h3 {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Insurance Types */
+.container_Insurancetypes_Main_1 {
+  position: relative;
+  left: 55.672px;
+  top: 45px;
+}
+.container_Insurancetypes_Main_1_inside {
+  background-color: #f0ffff;
+  padding: 5px;
+  margin: 5px;
+}
+/* carousel */
+.Carousel {
+  padding-top: 35px;
+}
+.Carousel_inside {
+  width: 90%;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #f0ffff;
+  padding: 15px;
+  border: 1px solid #02a4f9;
+}
+.Carousel_inside img {
+  padding: 5 px;
+  margin: 5px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 1px solid #02a4f9;
+}
+.carousel_message {
+  position: relative;
+  margin-left: 50px;
+}
+.carousel_message p {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.carousel_message h3 {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.btn-Knowmore {
+  padding: 4px 7px;
+  border-radius: 25px;
+  font-weight: 700;
+  width: fit-content;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+.Slider {
+  position: relative;
+  margin-left: 130px;
+  margin-right: 50px;
+  margin-top: 25px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+/*  */
+/* .rec.rec-arrow:disabled {
+    visibility: hidden;
+  } */
+/* .rec.rec-arrow {
+    visibility: hidden;
+  }
+  .rec.rec-arrow:disabled {
+    visibility: hidden;
+  } */
+/* Footer */
+.site-footer {
+  background-color: rgb(67, 64, 64);
+  padding: 0;
+}
+.site-footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  column-gap: 15px;
+  justify-content: center;
+}
+.subFooter {
+  padding: 1.5px;
+  width: 100%;
+  height: fit-content;
+  background-color: gray;
+}
+.lmvinsurance_subfooter_text {
+  justify-items: flex-start;
+  padding-left: 15px;
+}
+/* Insurance Types */
+.InsuranceTypes_main_div {
+  position: relative;
+
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #02a4f9;
+  background-color: #f0ffff;
+  border-radius: 25px;
+
+  margin: 50px 20px 20px 130px;
+  padding: 18px 4px;
+  height: fit-content;
+}
+.InsuranceTypes_main_div_inside {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: fit-content;
+  position: relative;
+  column-gap: 10px;
+  text-align: left;
+  padding: 4px;
+  text-align: center;
+}
+.InsuranceTypes_main_div_inside ul {
+  position: relative;
+  list-style-type: none;
+  font-family: "Montserrat";
+  color: cadetblue;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+}
+.InsuranceTypes_main_div_inside ul li:nth-child(1) {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-weight: bolder;
+  color: black;
+}
+
+.InsuranceTypesLogo {
+  width: 250px;
+  height: auto;
+  position: relative;
+  left: 170px;
+}
+/* Why Choose Us */
+.Why-Choose_us_button,
+.Our_Major_Brands {
+  background-color: #02a4f9;
+  border: none;
+  border-radius: 30px;
+  color: #f0ffff;
+  padding: 17px 15px;
+  margin: 35px 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 650;
+  font-size: 23px;
+  position: relative;
+}
+/* Carouser WhyChooseUS */
+.Carouser_WhyChooseus {
+  position: relative;
+  margin: 20px 5px 25px 20px;
+  text-align: start;
+}
+/* Brands */
+.Brand_MainDiv {
+  position: relative;
+  width: 80%;
+  border: 1px solid #02a4f9;
+  background-color: #f0ffff;
+  border-radius: 25px;
+  margin: 50px 20px 20px 130px;
+
+  height: fit-content;
+}
+.Brand_div_allitems {
+  margin: 20px 60px;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+.Brand_div_Item {
+  position: relative;
+}
+/* Have a question */
+
+.Have_a_question_MainDiv {
+  position: relative;
+  width: 80%;
+  border: 1px solid #02a4f9;
+  background-color: #f0ffff;
+  border-radius: 25px;
+  margin: 50px 20px 20px 130px;
+}
+.Have_a_question_inside_1 {
+  width: 100%;
+  padding: 10px;
+}
+.Question_img {
+  position: relative;
+  padding: 15px;
+  right: 5px;
+}
+.Font_Common {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  padding: 10px 10px 2px 15px;
+  font-weight: bolder;
+}
+.Font_Common_content {
+  position: relative;
+  text-align: left;
+  text-align: start;
+  margin-left: 15px;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.General_Enquires {
+  position: relative;
+  padding: 10px;
+  margin: 15px;
+  border: 1px solid #02a4f9;
+  width: fit-content;
+  font-size: x-large;
+  font-weight: bolder;
+  border-radius: 25px;
+}
+.url {
+  position: relative;
+  font-weight: 600;
+}
