@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css";
 const WhyChooseUs = () => {
   return (
-    <div>
+    <div className="Why-Choose_us_maindiv">
       <button className="Why-Choose_us_button">Why Choose Us ?</button>
     </div>
   );

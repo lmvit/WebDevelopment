@@ -12,7 +12,7 @@ code {
 /* Navbar */
 .header_header_div {
   position: relative;
-  background-color: #02a4f9;
+  background-color: transparent;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -23,6 +23,11 @@ code {
 }
 .Lmvib_main_logo_div img {
   border-radius: 6px;
+  padding: 10px 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid white;
+  background-color: white;
 }
 .unordered_list_navbar {
   list-style-type: none;
@@ -43,35 +48,35 @@ code {
   background-color: transparent;
   padding-right: 2px;
 }
+.navbar_btn {
+  width: fit-content;
+  border-radius: 25px;
+  background-color: transparent;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .signIn_button {
-  width: 113px;
-  height: 25px;
-  padding-left: 25px;
-  display: flex;
-  flex-direction: column;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .signIn_button h5 {
   position: relative;
   right: 0;
 }
-.signIn_button button {
-  border: none;
-  font-size: 14px;
-  width: 100%;
-  border-radius: 25px;
-  color: #02a4f9;
-}
+
 /* Body */
 body {
-  background-image: url("./Images//Web\ Page\ Bg.jpg");
+  background-image: none;
 }
 /* Body  Options*/
 .Options_mainDiv {
+  position: relative;
   width: 100%;
   padding: 2px;
+  margin-top: 70px;
+  margin-left: 13%;
 }
 .Options_mainDiv_inside {
-  justify-content: center;
   margin-top: 10px;
 }
 .Option_items_bodydiv1 {
@@ -80,7 +85,7 @@ body {
 }
 .Option_items_bodydiv1 h3 {
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bolder;
   font-size: 20px;
   text-decoration: none;
@@ -94,7 +99,7 @@ body {
   top: 45px;
 }
 .container_Insurancetypes_Main_1_inside {
-  background-color: #f0ffff;
+  background-color: #eef2f7;
   padding: 5px;
   margin: 5px;
 }
@@ -108,7 +113,7 @@ body {
   position: relative;
   align-items: center;
   border-radius: 25px;
-  background-color: #f0ffff;
+  background-color: #eef2f7;
   padding: 15px;
   border: 1px solid #02a4f9;
 }
@@ -125,12 +130,12 @@ body {
 }
 .carousel_message p {
   font-size: xx-large;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 700;
 }
 .carousel_message h3 {
   font-size: xx-large;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 800;
 }
 .btn-Knowmore {
@@ -165,14 +170,13 @@ body {
 .site-footer {
   background-color: rgb(67, 64, 64);
   padding: 0;
-}
-.site-footer {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto;
 }
+
 .container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
   column-gap: 15px;
   justify-content: center;
 }
@@ -186,6 +190,10 @@ body {
   justify-items: flex-start;
   padding-left: 15px;
 }
+.footer_heads {
+  position: relative;
+  margin-left: 25px;
+}
 /* Insurance Types */
 .InsuranceTypes_main_div {
   position: relative;
@@ -194,29 +202,29 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid #02a4f9;
-  background-color: #f0ffff;
+  background-color: #eef2f7;
   border-radius: 25px;
 
   margin: 50px 20px 20px 130px;
-  padding: 18px 4px;
+  padding: 15px 2px;
   height: fit-content;
 }
 .InsuranceTypes_main_div_inside {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  width: fit-content;
+  width: 100%;
   position: relative;
-  column-gap: 10px;
+  column-gap: 4px;
   text-align: left;
-  padding: 4px;
+  padding: 2px;
   text-align: center;
 }
 .InsuranceTypes_main_div_inside ul {
   position: relative;
   list-style-type: none;
-  font-family: "Montserrat";
   color: cadetblue;
   text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 ul {
   list-style-type: none;
@@ -236,18 +244,24 @@ ul {
   left: 170px;
 }
 /* Why Choose Us */
+.Why-Choose_us_maindiv,
+.Our-brands_maindiv {
+  position: relative;
+  margin-left: 20%;
+}
 .Why-Choose_us_button,
 .Our_Major_Brands {
   background-color: #02a4f9;
   border: none;
   border-radius: 30px;
   color: #f0ffff;
-  padding: 17px 15px;
-  margin: 35px 40%;
+  padding: 17px 3px;
+  margin: 35px 30%;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 650;
+  font-weight: 550;
   font-size: 23px;
   position: relative;
+  width: fit-content;
 }
 /* Carouser WhyChooseUS */
 .Carouser_WhyChooseus {
@@ -260,7 +274,7 @@ ul {
   position: relative;
   width: 80%;
   border: 1px solid #02a4f9;
-  background-color: #f0ffff;
+  background-color: #eef2f7;
   border-radius: 25px;
   margin: 50px 20px 20px 130px;
 
@@ -269,7 +283,7 @@ ul {
 .Brand_div_allitems {
   margin: 20px 60px;
   border-radius: 25px;
-  background-color: #ffffff;
+  background-color: #eef2f7;
 }
 
 .Brand_div_Item {
@@ -281,7 +295,7 @@ ul {
   position: relative;
   width: 80%;
   border: 1px solid #02a4f9;
-  background-color: #f0ffff;
+  background-color: #eef2f7;
   border-radius: 25px;
   margin: 50px 20px 20px 130px;
 }
@@ -323,4 +337,76 @@ ul {
 .url {
   position: relative;
   font-weight: 600;
+}
+/* Health Template */
+/* Health Template */
+.healthtemplate_main {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  padding: 20px 10px;
+  margin: 10px 5%;
+
+  width: auto;
+  height: auto;
+}
+.healthtemplate_inside {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+.healthtemplate_inside_image {
+  position: relative;
+  background-color: #e6e6ff;
+  padding: 35px 75px 35px 35px;
+  margin-left: 15px;
+  border-radius: 15px;
+}
+/* HT */
+.HealthImsurance_HT {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  padding: 15px;
+  margin: 5px;
+  font-weight: 500;
+}
+.HealthImsurance_HT h3 {
+}
+.InputField {
+  position: relative;
+  width: 45px;
+  text-align: center;
+}
+.input_data_fields {
+  border-radius: 50;
+}
+.message_tag_ht_after {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.message_tag_ht_after_subheading {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  padding-left: 45px;
+}
+.Selections_Htpage_after_Input {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: space-between;
+  margin: 25px;
+  padding: 25px;
+}
+.Selections_Htpage_after_Input_insidediv1 {
+  display: flex;
+  flex-direction: column;
+}
+.Selections_Htpage_after_Input_insidediv1 img {
+  position: relative;
+  justify-content: center;
 }

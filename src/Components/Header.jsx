@@ -1,51 +1,73 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import LmvLogo from "./Images/LMVIB Main.jpg";
-import "./index.css";
-const Header = () => {
+import React, { useState } from "react";
+import {
+  AppBar,
+  Grid,
+  Toolbar,
+  Tab,
+  Tabs,
+  Button,
+  useTheme,
+  useMediaQuery,
+  Typography,
+} from "@mui/material";
+import Logo from "./Images/lmv.png";
+import { Box } from "@mui/system";
+import DrawerComp from "./drawerComp";
+
+const Header = ({ links }) => {
+  const theme = useTheme();
+  console.log(theme);
+  const isMatch = useMediaQuery(theme.breakpoints.down("md"));
+  console.log(isMatch);
+  const [value, setValue] = useState();
   return (
-    <div>
-      <div className="header_header_div">
-        <div className="Lmvib_main_logo_div">
-          <Link to="/">
-            <img src={LmvLogo} alt="LmvLogo" width="201px" height="auto" />
-          </Link>
-        </div>
-        <div>
-          <nav>
-            <ul className="unordered_list_navbar">
-              <li>
-                InsuranceProducts
-                <select>
-                  <option></option>
-                </select>
-              </li>
-              <li>
-                Renew Your Policy
-                <select>
-                  <option></option>
-                </select>
-              </li>
-              <li>
-                Claim
-                <select>
-                  <option></option>
-                </select>
-              </li>
-              <li>
-                Support
-                <select>
-                  <option></option>
-                </select>
-              </li>
-              <li className="signIn_button">
-                <button>Sign In</button>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
+    <AppBar sx={{ backgroundColor: "rgb(216,225,236)" }}>
+      <Toolbar>
+        {isMatch ? (
+          <>
+            <DrawerComp links={links} />
+            <Typography>
+              <Grid item xs={3} sx={{ width: "180px", paddingTop: "2px" }}>
+                <img
+                  style={{ width: "100%" }}
+                  src={Logo}
+                  alt="Not displaying"
+                />
+              </Grid>
+            </Typography>
+          </>
+        ) : (
+          <Grid container>
+            <Grid item xs={3}>
+              <img
+                style={{ width: "200px", paddingTop: "2px" }}
+                src={Logo}
+                alt="Not displaying"
+              />
+            </Grid>
+
+            <Grid item xs={7} sx={{ paddingTop: "15px" }}>
+              <Tabs
+                indicatorColor="secondary"
+                textColor="inherit"
+                value={value}
+                onChange={(e, val) => setValue(val)}
+              >
+                {links.map((link, index) => (
+                  <Tab sx={{ color: "black" }} key={index} label={link} />
+                ))}
+              </Tabs>
+            </Grid>
+
+            <Grid item xs={2} sx={{ paddingTop: "15px" }}>
+              <Box>
+                <Button variant="contained">signin</Button>
+              </Box>
+            </Grid>
+          </Grid>
+        )}
+      </Toolbar>
+    </AppBar>
   );
 };
 

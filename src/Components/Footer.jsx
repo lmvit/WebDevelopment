@@ -3,7 +3,7 @@ import "./index.css";
 const Footer = () => {
   return (
     <div>
-      <footer>
+      <footer className="subFooter">
         <div className="subFooter">
           <h6 className="lmvinsurance_subfooter_text text-start">
             Lmv Insurance
@@ -25,65 +25,85 @@ const Footer = () => {
               <div>
                 {" "}
                 <a href="/about-us/about-company#my-slk">
-                  <h5 className="footer_heads">About Us</h5>
+                  <h5 className="footer_heads">Health Insurance</h5>
                 </a>{" "}
                 <ul className="foot_ans">
                   {" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
+                  <li>Family Health Insurance</li>
+                  <li>Senior Citizen Health Insurance</li>
+                  <li>Health Insurance For Parents</li>
+                  <li>Coronavirus Health Insurance</li>
+                  <li>Individual Health Insurance</li>
+                  <li>Maternity Health Insurance</li>
+                  <li>Top-Up Health Insurance</li>
                 </ul>
               </div>
               {/* Coloumn2 */}
               <div>
                 {" "}
                 <a href="/about-us/about-company#my-slk">
-                  <h5 className="footer_heads">About Us</h5>
+                  <h5 className="footer_heads">Health insurance</h5>
                 </a>{" "}
                 <ul className="foot_ans">
                   {" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
+                  <li>Family Health Insurance</li>
+                  <li>Senior Citizen Health Insurance</li>
+                  <li>Health Insurance For Parents</li>
+                  <li>Coronavirus Health Insurance</li>
+                  <li>Individual Health Insurance</li>
+                  <li>Maternity Health Insurance</li>
+                  <li>Top-Up Health Insurance</li>
                 </ul>
               </div>
               {/* Coloumn3 */}
               <div>
                 {" "}
                 <a href="/about-us/about-company#my-slk">
-                  <h5 className="footer_heads">About Us</h5>
+                  <h5 className="footer_heads">Health insurance</h5>
                 </a>{" "}
                 <ul className="foot_ans">
                   {" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
+                  <li>Family Health Insurance</li>
+                  <li>Senior Citizen Health Insurance</li>
+                  <li>Health Insurance For Parents</li>
+                  <li>Coronavirus Health Insurance</li>
+                  <li>Individual Health Insurance</li>
+                  <li>Maternity Health Insurance</li>
+                  <li>Top-Up Health Insurance</li>
                 </ul>
               </div>
               {/* Coloumn 4 */}
               <div>
                 {" "}
                 <a href="/about-us/about-company#my-slk">
-                  <h5 className="footer_heads">About Us</h5>
+                  <h5 className="footer_heads">Health insurance</h5>
                 </a>{" "}
                 <ul className="foot_ans">
                   {" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
+                  <li>Family Health Insurance</li>
+                  <li>Senior Citizen Health Insurance</li>
+                  <li>Health Insurance For Parents</li>
+                  <li>Coronavirus Health Insurance</li>
+                  <li>Individual Health Insurance</li>
+                  <li>Maternity Health Insurance</li>
+                  <li>Top-Up Health Insurance</li>
                 </ul>
               </div>
               {/* Coloumn 5 */}
               <div>
                 {" "}
                 <a href="/about-us/about-company#my-slk">
-                  <h5 className="footer_heads">About Us</h5>
+                  <h5 className="footer_heads">Health insurance</h5>
                 </a>{" "}
                 <ul className="foot_ans">
                   {" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
-                  <li>Board Of Directors</li> <li>Board Of Directors</li>{" "}
+                  <li>Family Health Insurance</li>
+                  <li>Senior Citizen Health Insurance</li>
+                  <li>Health Insurance For Parents</li>
+                  <li>Coronavirus Health Insurance</li>
+                  <li>Individual Health Insurance</li>
+                  <li>Maternity Health Insurance</li>
+                  <li>Top-Up Health Insurance</li>
                 </ul>
               </div>
             </div>

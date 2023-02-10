@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css";
 const Ourmajor = () => {
   return (
-    <div>
+    <div className="Our-brands_maindiv">
       <button className="Our_Major_Brands">Our Major Brands ?</button>
     </div>
   );
